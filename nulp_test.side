@@ -1,0 +1,299 @@
+{
+  "id": "8ce291ae-f63f-4707-afab-ab633bf4d02c",
+  "version": "2.0",
+  "name": "nulp",
+  "url": "https://lpnu.ua",
+  "tests": [{
+    "id": "e53da1f4-86b8-453a-a487-6b340eda2bb2",
+    "name": "nulp",
+    "commands": [{
+      "id": "6a9f0a53-16cf-4e19-8579-91324a5dbdb0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f23d928d-e018-43e3-90a5-6a8af175161e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Студенту",
+      "targets": [
+        ["linkText=Студенту", "linkText"],
+        ["css=.students", "css:finder"],
+        ["xpath=//a[contains(text(),'Студенту')]", "xpath:link"],
+        ["xpath=//nav[@id='block-lpnu-main-menu']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/studentu')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Студенту')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2edda279-1a02-4ce7-b56b-79282ef334da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Розклад для студентів",
+      "targets": [
+        ["linkText=Розклад для студентів", "linkText"],
+        ["css=.field--name-body > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Розклад для студентів')]", "xpath:link"],
+        ["xpath=//section[@id='block-rozkladzanyat']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://student.lpnu.ua/students_schedule')]", "xpath:href"],
+        ["xpath=//section/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Розклад для студентів')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f63ad5e3-1293-4afe-866f-ca24bf7e2907",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-departmentparent-abbrname-selective",
+      "targets": [
+        ["id=edit-departmentparent-abbrname-selective", "id"],
+        ["name=departmentparent_abbrname_selective", "name"],
+        ["css=#edit-departmentparent-abbrname-selective", "css:finder"],
+        ["xpath=//select[@id='edit-departmentparent-abbrname-selective']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-departmentparent-abbrname-selective-wrapper']/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5f46c8a-5f4a-42fd-9405-fddc374aec73",
+      "comment": "",
+      "command": "select",
+      "target": "id=edit-departmentparent-abbrname-selective",
+      "targets": [],
+      "value": "label=ІКТА"
+    }, {
+      "id": "53b8d6e4-ed56-4785-b9a9-adc927f47e0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-departmentparent-abbrname-selective",
+      "targets": [
+        ["id=edit-departmentparent-abbrname-selective", "id"],
+        ["name=departmentparent_abbrname_selective", "name"],
+        ["css=#edit-departmentparent-abbrname-selective", "css:finder"],
+        ["xpath=//select[@id='edit-departmentparent-abbrname-selective']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-departmentparent-abbrname-selective-wrapper']/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6daf3c32-1750-44f3-bb01-e9157e8d7432",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-studygroup-abbrname-selective",
+      "targets": [
+        ["id=edit-studygroup-abbrname-selective", "id"],
+        ["name=studygroup_abbrname_selective", "name"],
+        ["css=#edit-studygroup-abbrname-selective", "css:finder"],
+        ["xpath=//select[@id='edit-studygroup-abbrname-selective']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-studygroup-abbrname-selective-wrapper']/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e21b153-d784-4e9b-9d75-3b51161026fd",
+      "comment": "",
+      "command": "select",
+      "target": "id=edit-studygroup-abbrname-selective",
+      "targets": [],
+      "value": "label=ІР-11"
+    }, {
+      "id": "1943be3e-1862-48b7-abec-75cb2b9e0e01",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-studygroup-abbrname-selective",
+      "targets": [
+        ["id=edit-studygroup-abbrname-selective", "id"],
+        ["name=studygroup_abbrname_selective", "name"],
+        ["css=#edit-studygroup-abbrname-selective", "css:finder"],
+        ["xpath=//select[@id='edit-studygroup-abbrname-selective']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-studygroup-abbrname-selective-wrapper']/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01c98584-4707-4660-86bb-affab0e14d1b",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-semestrduration",
+      "targets": [
+        ["id=edit-semestrduration", "id"],
+        ["name=semestrduration", "name"],
+        ["css=#edit-semestrduration", "css:finder"],
+        ["xpath=//select[@id='edit-semestrduration']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-semestrduration-wrapper']/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de0f0f8f-6c0e-4928-9420-d782ca704bce",
+      "comment": "",
+      "command": "select",
+      "target": "id=edit-semestrduration",
+      "targets": [],
+      "value": "label=весь семестр"
+    }, {
+      "id": "038d3b47-39ea-473b-b060-f461e6d43442",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-semestrduration",
+      "targets": [
+        ["id=edit-semestrduration", "id"],
+        ["name=semestrduration", "name"],
+        ["css=#edit-semestrduration", "css:finder"],
+        ["xpath=//select[@id='edit-semestrduration']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-semestrduration-wrapper']/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "749f8291-e2b7-48f8-8ed7-368d1a31d439",
+      "comment": "",
+      "command": "click",
+      "target": "css=.view-grouping:nth-child(1) .stud_schedule:nth-child(2) .group_content",
+      "targets": [
+        ["css=.view-grouping:nth-child(1) .stud_schedule:nth-child(2) .group_content", "css:finder"],
+        ["xpath=//div[@id='sub_1_full']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae07426d-4d9a-4297-a10b-9906ae5e4ede",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.view-grouping:nth-child(1) .stud_schedule:nth-child(2) .group_content",
+      "targets": [
+        ["css=.view-grouping:nth-child(1) .stud_schedule:nth-child(2) .group_content", "css:finder"],
+        ["xpath=//div[@id='sub_1_full']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7debb4e1-7e1d-4327-b6a8-176bed3e217b",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-studygroup-abbrname-selective",
+      "targets": [
+        ["id=edit-studygroup-abbrname-selective", "id"],
+        ["name=studygroup_abbrname_selective", "name"],
+        ["css=#edit-studygroup-abbrname-selective", "css:finder"],
+        ["xpath=//select[@id='edit-studygroup-abbrname-selective']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-studygroup-abbrname-selective-wrapper']/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8c084ae-93d1-4f24-b083-dd38b70885b4",
+      "comment": "",
+      "command": "select",
+      "target": "id=edit-studygroup-abbrname-selective",
+      "targets": [],
+      "value": "label=ІР-12"
+    }, {
+      "id": "26ceee9d-9d88-4ac2-bb8c-c5802c411f3f",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-studygroup-abbrname-selective",
+      "targets": [
+        ["id=edit-studygroup-abbrname-selective", "id"],
+        ["name=studygroup_abbrname_selective", "name"],
+        ["css=#edit-studygroup-abbrname-selective", "css:finder"],
+        ["xpath=//select[@id='edit-studygroup-abbrname-selective']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-studygroup-abbrname-selective-wrapper']/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be625da-3025-44fa-b01a-96c8256fdf40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.view-grouping:nth-child(1) .stud_schedule:nth-child(2) > #sub_1_full > .group_content",
+      "targets": [
+        ["css=.view-grouping:nth-child(1) .stud_schedule:nth-child(2) > #sub_1_full > .group_content", "css:finder"],
+        ["xpath=//div[@id='sub_1_full']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df9db893-b316-4598-985f-5568ff9d26ae",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.view-grouping:nth-child(1) .stud_schedule:nth-child(2) > #sub_1_full > .group_content",
+      "targets": [
+        ["css=.view-grouping:nth-child(1) .stud_schedule:nth-child(2) > #sub_1_full > .group_content", "css:finder"],
+        ["xpath=//div[@id='sub_1_full']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d60a480-0bb0-41f3-8846-8bc695eb9554",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-studygroup-abbrname-selective",
+      "targets": [
+        ["id=edit-studygroup-abbrname-selective", "id"],
+        ["name=studygroup_abbrname_selective", "name"],
+        ["css=#edit-studygroup-abbrname-selective", "css:finder"],
+        ["xpath=//select[@id='edit-studygroup-abbrname-selective']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-studygroup-abbrname-selective-wrapper']/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d0c7853-0e0a-4c2a-b684-60571e1f52e9",
+      "comment": "",
+      "command": "select",
+      "target": "id=edit-studygroup-abbrname-selective",
+      "targets": [],
+      "value": "label=ІР-13"
+    }, {
+      "id": "64c03b2b-8d4f-4912-be80-ca7e1d8a0370",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-studygroup-abbrname-selective",
+      "targets": [
+        ["id=edit-studygroup-abbrname-selective", "id"],
+        ["name=studygroup_abbrname_selective", "name"],
+        ["css=#edit-studygroup-abbrname-selective", "css:finder"],
+        ["xpath=//select[@id='edit-studygroup-abbrname-selective']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-studygroup-abbrname-selective-wrapper']/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de53ffcb-b82a-4202-9ede-7936b7d7e655",
+      "comment": "",
+      "command": "click",
+      "target": "css=.view-grouping:nth-child(1) .stud_schedule:nth-child(4) > #sub_1_full > .group_content",
+      "targets": [
+        ["css=.view-grouping:nth-child(1) .stud_schedule:nth-child(4) > #sub_1_full > .group_content", "css:finder"],
+        ["xpath=//div[@id='sub_1_full']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d543d8f2-ee86-4c0d-a5a5-193dbe5326c4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.view-grouping:nth-child(1) .stud_schedule:nth-child(4) > #sub_1_full > .group_content",
+      "targets": [
+        ["css=.view-grouping:nth-child(1) .stud_schedule:nth-child(4) > #sub_1_full > .group_content", "css:finder"],
+        ["xpath=//div[@id='sub_1_full']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "80ddcca1-b0d8-46da-85b4-63d226614d99",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e53da1f4-86b8-453a-a487-6b340eda2bb2"]
+  }],
+  "urls": ["https://lpnu.ua/"],
+  "plugins": []
+}
